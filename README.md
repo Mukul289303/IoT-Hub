@@ -13,7 +13,7 @@
 ![ESP32](https://img.shields.io/badge/ESP32-Main_Controller-E7352C?style=flat-square)
 ![Arduino](https://img.shields.io/badge/Arduino-Compatible-00979D?style=flat-square)
 ![IoT](https://img.shields.io/badge/IoT-Multi_Sensor-success?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
+![License](https://img.shields.io/badge/License-Educational-blue?style=flat-square)
 
 </div>
 
@@ -143,26 +143,10 @@ The platform is ideal for students, educators, researchers, and IoT developers w
 ```text
 IoT-Hub/
 │
-├── firmware/
-│   └── main.ino
-│
-├── hardware/
-│   ├── PCB/
-│   ├── Schematic/
-│   └── BOM/
-│
+├── README.md
 ├── docs/
-│   └── Documentation.pdf
-│
-├── images/
-│   ├── iot-hub-board.png
-│   └── iot-lab-board.png
-│
-├── libraries/
-│
-├── LICENSE
-│
-└── README.md
+├── hardware/
+└── images/
 ```
 
 ---
@@ -175,7 +159,7 @@ IoT-Hub/
 git clone https://github.com/YOUR_USERNAME/IoT-Hub.git
 ```
 
-Replace `YOUR_USERNAME` with your GitHub username.
+> Replace **YOUR_USERNAME** with your GitHub username after creating the repository.
 
 ---
 
@@ -189,11 +173,12 @@ Replace `YOUR_USERNAME` with your GitHub username.
 
 ## Upload the Firmware
 
-1. Open `firmware/main.ino`.
-2. Install the required Arduino libraries.
-3. Select **ESP32 Dev Module**.
-4. Choose the correct COM Port.
-5. Click **Upload**.
+1. Connect the ESP32 board.
+2. Open the project in Arduino IDE.
+3. Install the required libraries.
+4. Select **ESP32 Dev Module**.
+5. Select the correct COM Port.
+6. Click **Upload**.
 
 ---
 
@@ -223,34 +208,25 @@ Replace `YOUR_USERNAME` with your GitHub username.
 
 # 🤝 Contributing
 
-Contributions are welcome!
-
-If you have suggestions or improvements:
-
-1. Fork the repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Submit a Pull Request.
+Suggestions, feedback, and improvements are always welcome.
 
 ---
 
-# 👨‍💻 Authors
+# 👨‍💻 Author
 
-### Project Developed By
-
-- **Mukul Vaid**
+**Mukul Vaid**
 
 ---
 
 # 📜 License
 
-This project is licensed under the MIT License.
+This project is intended for educational and academic purposes.
 
 ---
 
 <div align="center">
 
-## ⭐ If you found this project useful, please give it a Star!
+## ⭐ If you found this project useful, please consider giving it a star.
 
 **Made with ❤️ using ESP32**
 
